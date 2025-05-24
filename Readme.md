@@ -2,8 +2,8 @@
 
 ## Development environment
 
-Ubuntu 24.04.2 LTS
-Qt Creator 13.0.0 based on Qt 6.4.2
+Ubuntu 24.04.2 LTS, 
+Qt Creator 13.0.0 based on Qt 6.4.2, 
 C++17/STL
 
 ## Clone, prepare to build, build and run (CLI)
@@ -14,7 +14,6 @@ C++17/STL
  5. Run NIIAS compiled executable
 
 ## Clone, prepare to build, build and run (GUI)
-
  1. Clone this repository to local folder
  2. Enter cloned folder
  3. Run setup.sh in order to update system libraries, build essentials and Qt libraries to the latest version (use `chmod` command to make this shell script executable, if required)
