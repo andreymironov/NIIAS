@@ -9,16 +9,16 @@ C++17/STL
 ## Clone, prepare to build, build and run (CLI)
  1. Clone this repository to local folder
  2. Enter cloned folder
- 3. Run setup.sh in order to update system libraries, build essentials and Qt libraries to the latest version (use `chmod` command to make this shell script executable, if required)
- 4. Run build.sh in order to execute `qmake6` (this will generate Makefile on NIIAS project) and `make`
- 5. Run NIIAS compiled executable
+ 3. Run `setup.sh` in order to update system libraries, build essentials and Qt libraries to the latest version (use `chmod` command to make this shell script executable, if required)
+ 4. Run `build.sh` in order to execute `qmake6` (this will generate Makefile on NIIAS project) and `make`
+ 5. Run `NIIAS` compiled executable
 
 ## Clone, prepare to build, build and run (GUI)
  1. Clone this repository to local folder
  2. Enter cloned folder
- 3. Run setup.sh in order to update system libraries, build essentials and Qt libraries to the latest version (use `chmod` command to make this shell script executable, if required)
+ 3. Run `setup.sh` in order to update system libraries, build essentials and Qt libraries to the latest version (use `chmod` command to make this shell script executable, if required)
  4. Install or update QtCreator, if required (run `sudo apt-get install qtcreator`). Qt version 6.4 should be added to Qt versions in your QtCreator settings in order to open this project (use `/usr/bin/qmake6` path)
- 5. Run QtCreator and open NIIAS.pro project
+ 5. Run QtCreator and open `NIIAS.pro` project
  6. Compile and run
 
 ## Running NIIAS
